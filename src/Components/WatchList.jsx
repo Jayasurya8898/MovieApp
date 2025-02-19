@@ -64,7 +64,7 @@ export default function WatchList() {
             <th>
               <i
                 onClick={() => sortAscending("vote_average")}
-                className="fa-solid fa-angle-up mr-2"
+                className="fa fa-angle-up mr-2"
               ></i>
               Ratings
               <i
@@ -118,7 +118,7 @@ export default function WatchList() {
                     onClick={() => removeFromWatchList(movie)}
                     className="text-rose-600 cursor-pointer	"
                   >
-                    <i className="fa-solid fa-trash"></i>
+                    <i className=" fa-solid fa-trash"></i>
                   </td>
                 </tr>
               );
